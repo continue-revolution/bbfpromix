@@ -1,12 +1,11 @@
 # ALSA Mixer Frontend for RME Babyface Pro (FS)
 
-## Important: I will no longer maintain this project, as I'm no longer using Linux for audio projects, and upgraded to a different RME device! 
+I am not the author of this project. This project is still quite useful if you want to use RME Babyface Pro FS with Linux at this time (11/18/2023 as I write this). Follow these steps to get rid of all troubles.
 
-Concurrent kernel version required.
+```bash
+sudo apt install libgtk-3-dev
+sudo apt install libasound2-dev
+sudo make
+```
 
-A simple make should do on this.
-
-If you want to debug it, use `make DEBUG="true"`
-
-Use with caution!
-
+Then you are all set!
